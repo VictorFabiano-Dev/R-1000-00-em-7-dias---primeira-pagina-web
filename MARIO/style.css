@@ -9,6 +9,7 @@
 
 .logo-mario {
 height: 200px;
+margin-top: 20px;
 }
 
 .Botao-Entre-Em-Contato {
@@ -21,10 +22,12 @@ height: 200px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    margin-top: 20px;
 }
 
 p{color: white;
 font-size: 42px;
+
 }
 
 
@@ -61,4 +64,11 @@ width: 100%;
 background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 position: fixed;
 top: 0;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;   
 }
