@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 .logo-mario {
 height: 200px;
 margin-top: 20px;
@@ -27,26 +24,29 @@ margin-top: 20px;
 
 p{color: white;
 font-size: 42px;
-
+align-items: center;
 }
-
 
 body {
     height: 100vh;
-
 }
 
 .caixa-mae{
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: space-around ;
     padding: 100px;
-    height: 100vh;  
+    align-items: center;
+    justify-content: space-around;
 }
 
 .caixa-principal{ 
     width: 40%;
+   
 }
+
+.caixa-secundaria {
+    width: 40;
+}   
 
 .caixa-video {   
 position: fixed;
@@ -61,6 +61,7 @@ video {
 .masacara {
 height: 100%;
 width: 100%;
+align-items: start;
 background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
 position: fixed;
 top: 0;
@@ -71,4 +72,18 @@ top: 0;
     position: fixed;
     right: 20px;
     bottom: 20px;   
+}
+
+.header {
+display: flex;
+align-items: center;
+gap: 30px;
+margin: 30px;
+}
+
+.header img {
+    height: 60px;
+}
+.header a { 
+    color: white;
 }
