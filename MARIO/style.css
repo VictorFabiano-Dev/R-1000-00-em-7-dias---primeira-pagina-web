@@ -39,7 +39,7 @@ body {
     justify-content: space-around;
 }
 
-.caixa-principal{ 
+.caixa-principal{   
     width: 40%;
    
 }
@@ -79,11 +79,16 @@ display: flex;
 align-items: center;
 gap: 30px;
 margin: 30px;
+
 }
 
 .header img {
     height: 60px;
 }
-.header a { 
+
+.header a {
     color: white;
+    font-size: 24px;
+    cursor: pointer;
+    
 }
